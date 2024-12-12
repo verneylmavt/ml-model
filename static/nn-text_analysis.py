@@ -8,8 +8,6 @@ from torch import nn
 import torchvision
 from d2l import torch as d2l
 
-spacy_en = spacy.load('en_core_web_sm')
-
 # ----------------------
 # Configuration
 # ----------------------
