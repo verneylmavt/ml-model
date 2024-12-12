@@ -1,8 +1,6 @@
 streamlit
 numpy
 spacy
-nltk
 torch
-torchtext
 onnx
 onnxruntime
