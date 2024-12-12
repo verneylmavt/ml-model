@@ -1,10 +1,12 @@
+import os
+import pickle
 import streamlit as st
+import spacy
+import nltk
 import torch
 from torch import nn
+import torchvision
 from d2l import torch as d2l
-import pickle
-import spacy
-import os
 
 spacy_en = spacy.load('en_core_web_sm')
 

@@ -1,4 +1,6 @@
 streamlit
-torch
-d2l
 spacy
+nltk
+torch
+torchvision
+d2l
