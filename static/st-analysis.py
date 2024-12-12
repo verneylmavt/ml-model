@@ -3,7 +3,6 @@ import json
 import streamlit as st
 import numpy as np
 import spacy
-import nltk
 import torch
 from torch import nn
 import onnx
