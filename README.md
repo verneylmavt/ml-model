@@ -12,14 +12,14 @@ This repository contains a collection of machine learning models, designed to be
 
 If the demo page is not working, you can fork or clone this repository and run the application locally by following these steps:
 
-### 🔗 Prerequisites
+### Prerequisites
 
 Ensure you have the following installed:
 
 - Python 3.8 or later
 - pip (Python package installer)
 
-### 📋 Installation Steps
+### Installation Steps
 
 1. Clone the repository:
 
@@ -39,7 +39,7 @@ Ensure you have the following installed:
    streamlit run app.py
    ```
 
-### 📋 Notes
+### Notes
 
 - Ensure all required model files (ONNX models, vocabulary files, etc.) are placed in the appropriate directories as referenced in the app.
 - If you encounter issues, check the error logs and ensure all dependencies are correctly installed.
