@@ -1,6 +1,8 @@
 streamlit
+numpy
 spacy
 nltk
 torch
-torchvision
-d2l
+torchtext
+onnx
+onnxruntime

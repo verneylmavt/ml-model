@@ -9,8 +9,8 @@ def main():
             st.Page("static/home.py", title="Home")
         ],
         "Models": [
-            st.Page("static/nn-text_analysis.py", title="Sentiment Analysis"),
-            st.Page("static/regression-food_security.py", title="Regression Food Security"),
+            st.Page("static/st-analysis.py", title="Sentiment Analysis"),
+            st.Page("static/others.py", title="Others"),
         ],
     }
     
