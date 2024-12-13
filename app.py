@@ -51,14 +51,34 @@ def main():
     # st.markdown(
     #     "<div style='text-align: center; margin-top: 20px;'>Feel free to fork or clone the repository, install the requirements, and run the app locally if needed.</div>",
     #     unsafe_allow_html=True,
-    # )
+    # ) https://verneylogyt-snt-analysis.streamlit.app/
     st.divider()
 
     # st.info("Navigate through the app to explore various models and their features.", icon="💡")
-    st.link_button("Sentiment Analysis", "https://verneylogyt-snt-analysis.streamlit.app/", use_container_width=True)
-    st.link_button("Syntactic Parsing", "https://verneylogyt-sn-parsing.streamlit.app/", use_container_width=True)
-    st.link_button("Semantic Parsing", "https://verneylogyt-sm-parsing.streamlit.app/", use_container_width=True)
-    st.link_button("Named Entity Recognition (NER)", "https://verneylogyt-ner.streamlit.app/", use_container_width=True)
+    # st.link_button("Sentiment Analysis", "https://verneylogyt-snt-analysis.streamlit.app/", use_container_width=True)
+    # st.link_button("Syntactic Parsing", "https://verneylogyt-sn-parsing.streamlit.app/", use_container_width=True)
+    # st.link_button("Semantic Parsing", "https://verneylogyt-sm-parsing.streamlit.app/", use_container_width=True)
+    # st.link_button("Named Entity Recognition (NER)", "https://verneylogyt-ner.streamlit.app/", use_container_width=True)
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <a href="https://verneylogyt-snt-analysis.streamlit.app/" target="_blank" class="custom-link">
+                Sentiment Analysis
+            </a>
+            <a href="https://verneylogyt-sn-parsing.streamlit.app/" target="_blank" class="custom-link">
+                Syntactic Parsing
+            </a>
+            <a href="https://verneylogyt-sm-parsing.streamlit.app/" target="_blank" class="custom-link">
+                Semantic Parsing
+            </a>
+            <a href="https://verneylogyt-ner.streamlit.app/" target="_blank" class="custom-link">
+                Named Entity Recognition (NER)
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    
     
     st.divider()
     # Footer with branding
