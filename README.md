@@ -1,6 +1,6 @@
 # 📦 ML Model Collections
 
-This repository contains a collection of machine learning models, designed to be deployed using ONNX and utilized in a Streamlit-based web application. The app provides an interactive interface for performing various tasks using neural network architectures.
+This repository contains the home page of a collection of machine learning models, designed to be deployed using ONNX and utilized in a Streamlit-based web application. The app provides an interactive interface for performing various tasks using neural network architectures.
 
 ## 🎈 Demo App
 
@@ -8,7 +8,7 @@ This repository contains a collection of machine learning models, designed to be
 
 <!-- [https://verneylogyt.streamlit.app/](https://verneylogyt.streamlit.app/) -->
 
-## ⚙️ Running Locally
+<!-- ## ⚙️ Running Locally
 
 If the demo page is not working, you can fork or clone this repository and run the application locally by following these steps:
 
@@ -17,7 +17,7 @@ If the demo page is not working, you can fork or clone this repository and run t
 Ensure you have the following installed:
 
 - Python 3.8 or later
-- pip (Python package installer)
+- pip (Python Package Installer)
 
 ### Installation Steps
 
@@ -42,7 +42,7 @@ Ensure you have the following installed:
 ### Notes
 
 - Ensure all required model files (ONNX models, vocabulary files, etc.) are placed in the appropriate directories as referenced in the app.
-- If you encounter issues, check the error logs and ensure all dependencies are correctly installed.
+- If you encounter issues, check the error logs and ensure all dependencies are correctly installed. -->
 <!--
 
 ## Features
