@@ -14,12 +14,11 @@ import onnxruntime
 
 # @st.cache_resource
 def load_spacy():
-    try:
-        return spacy.load('en_core_web_sm')
-    except OSError:
-        from spacy.cli import download
-        download('en_core_web_sm')
-        return spacy.load('en_core_web_sm')
+    model_path = os.path.join("data", "en_core_web_sm", "en_core_web_sm-3.8.0")
+    if os.path.isdir(model_path):
+        return spacy.load(model_path)
+    else:
+        raise FileNotFoundError(f"SpaCy model not found at {model_path}. Please ensure it is correctly placed.")
 spacy_en = load_spacy()
 
 # ----------------------
