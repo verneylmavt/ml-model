@@ -1,4 +1,4 @@
-# 📦 ML Model Collections
+# 📦 ML Models Collection
 
 This repository contains the home page of a collection of machine learning models, designed to be deployed using ONNX and utilized in a Streamlit-based web application. The app provides an interactive interface for performing various tasks using neural network architectures.
 
