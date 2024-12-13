@@ -55,7 +55,7 @@ def main():
     st.divider()
 
     # st.info("Navigate through the app to explore various models and their features.", icon="💡")
-    st.link_button("Sentiment Analysis", "https://verneylogyt-st-analysis.streamlit.app/", use_container_width=True)
+    st.link_button("Sentiment Analysis", "https://verneylogyt-snt-analysis.streamlit.app/", use_container_width=True)
     st.link_button("Syntactic Parsing", "https://verneylogyt-sn-parsing.streamlit.app/", use_container_width=True)
     st.link_button("Semantic Parsing", "https://verneylogyt-sm-parsing.streamlit.app/", use_container_width=True)
     st.link_button("Named Entity Recognition (NER)", "https://verneylogyt-ner.streamlit.app/", use_container_width=True)
