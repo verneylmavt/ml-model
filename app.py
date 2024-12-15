@@ -56,6 +56,9 @@ def main():
             <a href="https://verneylogyt-snt-analysis.streamlit.app/" target="_blank" class="custom-link">
                 Sentiment Analysis
             </a>
+            <a href="https://verneylogyt-pos-tagging.streamlit.app/" target="_blank" class="custom-link">
+                POS Tagging
+            </a>
             <a href="https://verneylogyt-sn-parsing.streamlit.app/" target="_blank" class="custom-link">
                 Syntactic Parsing
             </a>
