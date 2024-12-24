@@ -59,6 +59,9 @@ def main():
             <a href="https://verneylogyt-pos-tagging.streamlit.app/" target="_blank" class="custom-link">
                 POS Tagging
             </a>
+            <a href="https://verneylogyt-nli.streamlit.app/" target="_blank" class="custom-link">
+                Natural Language Inference (NLI)
+            </a>
             <a href="https://verneylogyt-sn-parsing.streamlit.app/" target="_blank" class="custom-link">
                 Syntactic Parsing
             </a>
