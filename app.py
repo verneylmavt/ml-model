@@ -76,7 +76,17 @@ def main():
         unsafe_allow_html=True,
     )
     st.divider()
-    
+    st.markdown(
+        """
+        <div style="text-align: center;">
+            <a href="https://verneylogyt-mov-recsys.streamlit.app/" target="_blank" class="custom-link">
+                Movie Recommender System
+            </a>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
+    st.divider()
     st.markdown(
         """
         <div class="github-link">
