@@ -1,7 +1,6 @@
 import streamlit as st
 from streamlit_extras.mention import mention
 
-# Custom CSS for styling
 # st.markdown(
 #     """
 #     <style>
@@ -43,12 +42,29 @@ from streamlit_extras.mention import mention
 #     """,
 #     unsafe_allow_html=True
 # )
+st.markdown(
+    """
+    <style>
+    .main-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.8rem;
+        font-weight: bold;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 
 def main():
-    # st.markdown("<div class='main-title'>ML Models Collection</div>", unsafe_allow_html=True)
-    title = st.columns(1)
-    with title[0]:
-        st.title("ML Models Collection 📦")
+    st.markdown(
+    "<div class='main-title'><a href='https://github.com/verneylmavt/ml-model' target='_blank'>ML Models Collection 📦</a></div>",
+    unsafe_allow_html=True
+    )
+    st.divider()
+    # st.title("ML Models Collection 📦")
     # st.markdown(
     #     "<div class='sub-text'>This application hosts a collection of machine learning models, allowing you to explore their functionality interactively.</div>",
     #     unsafe_allow_html=True,
