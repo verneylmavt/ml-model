@@ -183,18 +183,31 @@ def main():
         
         
     st.subheader("Others", divider="grey")
-    mov_rec_sys_1, mov_rec_sys_2 = st.columns(2)
-    with mov_rec_sys_1:
+    mov_recsys_1, mov_recsys_2 = st.columns(2)
+    with mov_recsys_1:
         mention(
             label="Movie Recommender System",
             icon="streamlit",
             url="https://verneylogyt-mov-recsys.streamlit.app/"
         )
-    with mov_rec_sys_2:
+    with mov_recsys_2:
         mention(
             label="verneylmavt/st-mov-recsys",
             icon="github",
             url="https://github.com/verneylmavt/st-mov-recsys"
+        )
+    sn_dgt_recognition_1, sn_dgt_recognition_2 = st.columns(2)
+    with sn_dgt_recognition_1:
+        mention(
+            label="Single Digit Recognition",
+            icon="streamlit",
+            url="https://verneylogyt-sn-dgt-recognition.streamlit.app/"
+        )
+    with sn_dgt_recognition_2:
+        mention(
+            label="verneylmavt/st-sn-dgt-recognition",
+            icon="github",
+            url="https://github.com/verneylmavt/st-sn-dgt-recognition"
         )
     # st.divider()
     # st.markdown(
