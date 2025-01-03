@@ -209,6 +209,10 @@ def main():
             icon="github",
             url="https://github.com/verneylmavt/st-sn-dgt-recognition"
         )
+        
+    # st.divider()
+    # st.info("If you encounter message 'This app has gone to sleep due to inactivity', click 'Yes, get this app back up!' button to wake the app back up.")    
+    
     # st.divider()
     # st.markdown(
     #     """
