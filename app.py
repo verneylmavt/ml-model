@@ -212,7 +212,7 @@ def main():
     nba_vis_1, nba_vis_2 = st.columns(2)
     with nba_vis_1:
         mention(
-            label="Single Digit Recognition",
+            label="NBA Analysis and Visualization",
             icon="streamlit",
             url="https://verneylogyt-nba-vis.streamlit.app/"
         )
