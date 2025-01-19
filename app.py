@@ -216,14 +216,21 @@ def main():
             icon="streamlit",
             url="https://verneylogyt-nba-vis.streamlit.app/"
         )
+        # st.write("""
+        #         - Regression Model
+        #         - Classification Model
+        #         - Clustering Model
+        #         """)
     with nba_vis_2:
         mention(
             label="verneylmavt/st-nba-vis",
             icon="github",
             url="https://github.com/verneylmavt/st-nba-vis"
         )
-        
-    # st.divider()
+    
+    st.divider()
+    st.warning("""If you encounter message &nbsp; `"This app has gone to sleep due to inactivity"` &nbsp;,  
+                click &nbsp; `"Yes, get this app back up!"` &nbsp; button to wake the app back up.""", icon="⚠")
     # st.info("If you encounter message 'This app has gone to sleep due to inactivity', click 'Yes, get this app back up!' button to wake the app back up.")    
     
     # st.divider()
