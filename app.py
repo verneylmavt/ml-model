@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit_extras.mention import mention
+import streamlit.components.v1 as components
 
 # st.markdown(
 #     """
@@ -110,6 +111,14 @@ def main():
             icon="github",
             url="https://github.com/verneylmavt/st-snt-analysis"
         )
+    
+    # mention(
+    #         label="verneylmavt/st-snt-analysis",
+    #         icon="github",
+    #         url="https://github.com/verneylmavt/st-snt-analysis"
+    # )
+    # components.iframe(src="https://verneylogyt-ner.streamlit.app/?embed=true&embed_options=dark_theme", width=800, height=600, scrolling=True)
+    
         
     pos_tagging_1, pos_tagging_2 = st.columns(2)
     with pos_tagging_1:
@@ -228,7 +237,7 @@ def main():
         )
     
     st.divider()
-    st.warning("""If you encounter message &nbsp; `"This app has gone to sleep due to inactivity"` &nbsp;,  
+    st.info("""If you encounter message &nbsp; `"This app has gone to sleep due to inactivity"` &nbsp;,  
                 click &nbsp; `"Yes, get this app back up!"` &nbsp; button to wake the app back up.""", icon="⚠")
     # st.info("If you encounter message 'This app has gone to sleep due to inactivity', click 'Yes, get this app back up!' button to wake the app back up.")    
     
