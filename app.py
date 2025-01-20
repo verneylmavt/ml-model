@@ -239,7 +239,7 @@ def main():
     kjv_vis_1, kjv_vis_2 = st.columns(2)
     with kjv_vis_1:
         mention(
-            label="King James Version (KJV) Bible Analysis and Visualization",
+            label="KJV Bible Analysis and Visualization",
             icon="streamlit",
             url="https://verneylogyt-kjv-vis.streamlit.app/"
         )
