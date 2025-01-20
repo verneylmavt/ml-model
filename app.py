@@ -139,6 +139,20 @@ def main():
             url="https://github.com/verneylmavt/st-nli"
         )
     
+    ner_1, ner_2 = st.columns(2)
+    with ner_1:
+        mention(
+            label="Named Entity Recognition (NER)",
+            icon="streamlit",
+            url="https://verneylogyt-ner.streamlit.app/"
+        )
+    with ner_2:
+        mention(
+            label="verneylmavt/st-ner",
+            icon="github",
+            url="https://github.com/verneylmavt/st-ner"
+        )
+        
     sn_parsing_1, sn_parsing_2 = st.columns(2)
     with sn_parsing_1:
         mention(
@@ -166,21 +180,6 @@ def main():
             icon="github",
             url="https://github.com/verneylmavt/st-sm-parsing"
         )
-    
-    ner_1, ner_2 = st.columns(2)
-    with ner_1:
-        mention(
-            label="Named Entity Recognition (NER)",
-            icon="streamlit",
-            url="https://verneylogyt-ner.streamlit.app/"
-        )
-    with ner_2:
-        mention(
-            label="verneylmavt/st-ner",
-            icon="github",
-            url="https://github.com/verneylmavt/st-ner"
-        )
-        
         
     st.subheader("Others", divider="grey")
     mov_recsys_1, mov_recsys_2 = st.columns(2)
