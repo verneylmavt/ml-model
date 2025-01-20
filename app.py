@@ -235,6 +235,25 @@ def main():
             icon="github",
             url="https://github.com/verneylmavt/st-nba-vis"
         )
+        
+    kjv_vis_1, kjv_vis_2 = st.columns(2)
+    with kjv_vis_1:
+        mention(
+            label="King James Version (KJV) Bible Analysis and Visualization",
+            icon="streamlit",
+            url="https://verneylogyt-kjv-vis.streamlit.app/"
+        )
+        # st.write("""
+        #         - Regression Model
+        #         - Classification Model
+        #         - Clustering Model
+        #         """)
+    with kjv_vis_2:
+        mention(
+            label="verneylmavt/st-kjv-vis",
+            icon="github",
+            url="https://github.com/verneylmavt/st-kjv-vis"
+        )
     
     st.divider()
     st.info("""If you encounter message &nbsp; `"This app has gone to sleep due to inactivity"` &nbsp;,  
