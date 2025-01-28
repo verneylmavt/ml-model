@@ -1,0 +1,32 @@
+name: Keep Alive
+
+on:
+  schedule:
+    - cron: '55 */23 * * *'
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: GET Requests to Streamlit Apps
+        run: |
+          echo "https://verneylogyt-snt-analysis.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-snt-analysis.streamlit.app/
+          
+          echo "https://verneylogyt-pos-tagging.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-pos-tagging.streamlit.app/
+          
+          echo "https://verneylogyt-nli.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-nli.streamlit.app/
+          
+          echo "https://verneylogyt-ner.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-ner.streamlit.app/
+          
+          echo "https://verneylogyt-mov-recsys.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-mov-recsys.streamlit.app/
+          
+          echo "https://verneylogyt-sn-dgt-recognition.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-sn-dgt-recognition.streamlit.app/
+          
+          echo "https://verneylogyt-nba-vis.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-nba-vis.streamlit.app
