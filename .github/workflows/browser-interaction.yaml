@@ -1,0 +1,25 @@
+name: Browser Interaction
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  browser-interaction:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Chrome
+        run: |
+          sudo apt update
+          sudo apt install -y google-chrome-stable
+
+      - name: Install Dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      - name: Run Browser Interaction
+        run: python scripts/simulate_browser.py
