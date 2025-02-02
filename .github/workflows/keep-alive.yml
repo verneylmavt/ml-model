@@ -33,3 +33,9 @@ jobs:
 
           echo "https://verneylogyt-nba-vis.streamlit.app/"
           curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-nba-vis.streamlit.app
+
+          echo "https://verneylogyt-kjv-vis.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-kjv-vis.streamlit.app
+
+          echo "https://verneylogyt-q-learning-maze.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-q-learning-maze.streamlit.app/

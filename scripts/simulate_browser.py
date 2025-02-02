@@ -15,6 +15,8 @@ urls = [
     "https://verneylogyt-mov-recsys.streamlit.app/",
     "https://verneylogyt-sn-dgt-recognition.streamlit.app/",
     "https://verneylogyt-nba-vis.streamlit.app/"
+    "https://verneylogyt-kjv-vis.streamlit.app/"
+    "https://verneylogyt-q-learning-maze.streamlit.app/"
     ]
 
 def setup_browser():

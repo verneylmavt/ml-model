@@ -243,16 +243,26 @@ def main():
             icon="streamlit",
             url="https://verneylogyt-kjv-vis.streamlit.app/"
         )
-        # st.write("""
-        #         - Regression Model
-        #         - Classification Model
-        #         - Clustering Model
-        #         """)
     with kjv_vis_2:
         mention(
             label="verneylmavt/st-kjv-vis",
             icon="github",
             url="https://github.com/verneylmavt/st-kjv-vis"
+        )
+        
+    
+    q_learning_maze_1, q_learning_maze_2 = st.columns(2)
+    with q_learning_maze_1:
+        mention(
+            label="Maze Solver w/ Q-Learning",
+            icon="streamlit",
+            url="https://verneylogyt-q-learning-maze.streamlit.app/"
+        )
+    with q_learning_maze_2:
+        mention(
+            label="verneylmavt/q-learning-maze",
+            icon="github",
+            url="https://github.com/verneylmavt/q-learning-maze"
         )
     
     st.divider()
