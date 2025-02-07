@@ -8,7 +8,7 @@ This repository contains the home page of a collection of machine learning model
 
 <!-- <iframe src="https://verneylogyt.streamlit.app/?embed=true&embed_options=dark_theme" width="100%" height="600px" frameborder="0"></iframe> -->
 
-[🔗 View Gallery](https://verneylmavt.github.io/ml-model/)
+<iframe src="https://github.com/verneylmavt/ml-model/docs/ " width="100%" height="400px"></iframe>
 
 If you encounter message `This app has gone to sleep due to inactivity`, click `Yes, get this app back up!` button to wake the app back up.
 
