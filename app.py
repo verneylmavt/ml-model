@@ -43,26 +43,27 @@ import streamlit.components.v1 as components
 #     """,
 #     unsafe_allow_html=True
 # )
-st.markdown(
-    """
-    <style>
-    .main-title {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 2.8rem;
-        font-weight: bold;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 def main():
     st.set_page_config(page_title="ML Models Collection"
                     # layout="wide"
                     )
+    
+    st.markdown(
+        """
+        <style>
+        .main-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.8rem;
+            font-weight: bold;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
     
     st.markdown(
     "<div class='main-title'><a href='https://github.com/verneylmavt/ml-model' target='_blank'>ML Models Collection 📦</a></div>",
