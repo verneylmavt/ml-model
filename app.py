@@ -60,6 +60,10 @@ st.markdown(
 
 
 def main():
+    st.set_page_config(page_title="ML Models Collection"
+                    # layout="wide"
+                    )
+    
     st.markdown(
     "<div class='main-title'><a href='https://github.com/verneylmavt/ml-model' target='_blank'>ML Models Collection 📦</a></div>",
     unsafe_allow_html=True
