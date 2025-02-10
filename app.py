@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit_extras.mention import mention
-import streamlit.components.v1 as components
 
 # st.markdown(
 #     """
@@ -44,11 +42,13 @@ import streamlit.components.v1 as components
 #     unsafe_allow_html=True
 # )
 
-
 def main():
     st.set_page_config(page_title="ML Models Collection"
                     # layout="wide"
                     )
+    
+    from streamlit_extras.mention import mention
+    import streamlit.components.v1 as components
     
     st.markdown(
         """
