@@ -39,3 +39,6 @@ jobs:
 
           echo "https://verneylogyt-q-learning-maze.streamlit.app/"
           curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://verneylogyt-q-learning-maze.streamlit.app/
+
+          echo "https://g20-blood-sugar-spike-prediction.streamlit.app/"
+          curl -s -o /dev/null -w "Status: %{http_code}, Time: %{time_total}s\n" https://g20-blood-sugar-spike-prediction.streamlit.app/
